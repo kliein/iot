@@ -1,0 +1,382 @@
+2018-06-22 18:11:29,064 - Starting IotApplication on DESKTOP-59P54G2 with PID 1544 (G:\java\iot\target\classes started by pang in G:\java\iot)
+2018-06-22 18:11:29,066 - No active profile set, falling back to default profiles: default
+2018-06-22 18:11:29,113 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5bd03f44: startup date [Fri Jun 22 18:11:29 CST 2018]; root of context hierarchy
+2018-06-22 18:11:30,083 - Tomcat initialized with port(s): 8080 (http)
+2018-06-22 18:11:30,095 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-06-22 18:11:30,101 - Starting service [Tomcat]
+2018-06-22 18:11:30,101 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-22 18:11:30,107 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;d:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;d:\Program Files\Microsoft SQL Server\100\Tools\Binn\;d:\Program Files\Microsoft SQL Server\100\DTS\Binn\;d:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;d:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;G:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;D:\Program Files\Java\jdk1.8.0_172\bin;D:\Program Files\Java\jdk1.8.0_172\jre\bin;C:\Users\pang\AppData\Local\Microsoft\WindowsApps;C:\Users\pang\AppData\Local\GitHubDesktop\bin;.]
+2018-06-22 18:11:30,178 - Initializing Spring embedded WebApplicationContext
+2018-06-22 18:11:30,179 - Root WebApplicationContext: initialization completed in 1066 ms
+2018-06-22 18:11:30,282 - Servlet dispatcherServlet mapped to [/]
+2018-06-22 18:11:30,296 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-22 18:11:30,296 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-22 18:11:30,296 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-22 18:11:30,297 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-22 18:11:30,391 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 18:11:30,552 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5bd03f44: startup date [Fri Jun 22 18:11:29 CST 2018]; root of context hierarchy
+2018-06-22 18:11:30,599 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-22 18:11:30,600 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-22 18:11:30,619 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 18:11:30,619 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 18:11:30,736 - Registering beans for JMX exposure on startup
+2018-06-22 18:11:30,750 - Starting ProtocolHandler ["http-nio-8080"]
+2018-06-22 18:11:30,761 - Using a shared selector for servlet write/read
+2018-06-22 18:11:30,776 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-06-22 18:11:30,779 - Started IotApplication in 2.196 seconds (JVM running for 2.992)
+2018-06-22 18:11:30,800 - 【UDP服务启动成功】端口:8888
+2018-06-22 18:11:31,180 - 【TCP服务启动成功】端口:9999
+2018-06-22 18:49:05,658 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-22 18:49:05,659 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-22 18:49:05,679 - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2018-06-22 19:29:07,646 - Starting IotApplication on DESKTOP-59P54G2 with PID 14248 (G:\java\iot\target\classes started by pang in G:\java\iot)
+2018-06-22 19:29:07,649 - No active profile set, falling back to default profiles: default
+2018-06-22 19:29:07,700 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@139982de: startup date [Fri Jun 22 19:29:07 CST 2018]; root of context hierarchy
+2018-06-22 19:29:08,904 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d7d181d1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 19:29:09,217 - Tomcat initialized with port(s): 8080 (http)
+2018-06-22 19:29:09,232 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-06-22 19:29:09,247 - Starting service [Tomcat]
+2018-06-22 19:29:09,247 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-22 19:29:09,252 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;d:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;d:\Program Files\Microsoft SQL Server\100\Tools\Binn\;d:\Program Files\Microsoft SQL Server\100\DTS\Binn\;d:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;d:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;G:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;D:\Program Files\Java\jdk1.8.0_172\bin;D:\Program Files\Java\jdk1.8.0_172\jre\bin;C:\Users\pang\AppData\Local\Microsoft\WindowsApps;C:\Users\pang\AppData\Local\GitHubDesktop\bin;.]
+2018-06-22 19:29:09,369 - Initializing Spring embedded WebApplicationContext
+2018-06-22 19:29:09,371 - Root WebApplicationContext: initialization completed in 1671 ms
+2018-06-22 19:29:09,554 - Servlet dispatcherServlet mapped to [/]
+2018-06-22 19:29:09,562 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-22 19:29:09,562 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-22 19:29:09,562 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-22 19:29:09,562 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-22 19:29:09,746 - HikariPool-1 - Starting...
+2018-06-22 19:29:09,965 - HikariPool-1 - Start completed.
+2018-06-22 19:29:10,007 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-06-22 19:29:10,020 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-06-22 19:29:10,212 - HHH000412: Hibernate Core {5.2.17.Final}
+2018-06-22 19:29:10,213 - HHH000206: hibernate.properties not found
+2018-06-22 19:29:10,252 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-22 19:29:10,377 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-06-22 19:29:10,595 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-06-22 19:29:10,686 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:29:10,945 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@139982de: startup date [Fri Jun 22 19:29:07 CST 2018]; root of context hierarchy
+2018-06-22 19:29:11,011 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-22 19:29:11,012 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-22 19:29:11,041 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:29:11,042 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:29:11,375 - Registering beans for JMX exposure on startup
+2018-06-22 19:29:11,377 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-06-22 19:29:11,382 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-06-22 19:29:11,395 - Starting ProtocolHandler ["http-nio-8080"]
+2018-06-22 19:29:11,402 - Using a shared selector for servlet write/read
+2018-06-22 19:29:11,416 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-06-22 19:29:11,419 - Started IotApplication in 4.836 seconds (JVM running for 6.189)
+2018-06-22 19:29:35,545 - Starting IotApplication on DESKTOP-59P54G2 with PID 11224 (G:\java\iot\target\classes started by pang in G:\java\iot)
+2018-06-22 19:29:35,550 - No active profile set, falling back to default profiles: default
+2018-06-22 19:29:35,668 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1b765a2c: startup date [Fri Jun 22 19:29:35 CST 2018]; root of context hierarchy
+2018-06-22 19:29:36,967 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$50741e61] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 19:29:37,367 - Tomcat initialized with port(s): 8080 (http)
+2018-06-22 19:29:37,385 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-06-22 19:29:37,397 - Starting service [Tomcat]
+2018-06-22 19:29:37,398 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-22 19:29:37,402 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;d:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;d:\Program Files\Microsoft SQL Server\100\Tools\Binn\;d:\Program Files\Microsoft SQL Server\100\DTS\Binn\;d:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;d:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;G:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;D:\Program Files\Java\jdk1.8.0_172\bin;D:\Program Files\Java\jdk1.8.0_172\jre\bin;C:\Users\pang\AppData\Local\Microsoft\WindowsApps;C:\Users\pang\AppData\Local\GitHubDesktop\bin;.]
+2018-06-22 19:29:37,542 - Initializing Spring embedded WebApplicationContext
+2018-06-22 19:29:37,543 - Root WebApplicationContext: initialization completed in 1875 ms
+2018-06-22 19:29:37,735 - Servlet dispatcherServlet mapped to [/]
+2018-06-22 19:29:37,746 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-22 19:29:37,746 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-22 19:29:37,747 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-22 19:29:37,747 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-22 19:29:37,953 - HikariPool-1 - Starting...
+2018-06-22 19:29:38,149 - HikariPool-1 - Start completed.
+2018-06-22 19:29:38,200 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-06-22 19:29:38,299 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-06-22 19:29:38,417 - HHH000412: Hibernate Core {5.2.17.Final}
+2018-06-22 19:29:38,419 - HHH000206: hibernate.properties not found
+2018-06-22 19:29:38,478 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-22 19:29:38,683 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-06-22 19:29:38,958 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-06-22 19:29:39,091 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:29:39,458 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1b765a2c: startup date [Fri Jun 22 19:29:35 CST 2018]; root of context hierarchy
+2018-06-22 19:29:39,553 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-22 19:29:39,557 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-22 19:29:39,601 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:29:39,601 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:29:40,136 - Registering beans for JMX exposure on startup
+2018-06-22 19:29:40,141 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-06-22 19:29:40,147 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-06-22 19:29:44,934 - Starting ProtocolHandler ["http-nio-8080"]
+2018-06-22 19:31:27,660 - Starting IotApplication on DESKTOP-59P54G2 with PID 6552 (G:\java\iot\target\classes started by pang in G:\java\iot)
+2018-06-22 19:31:27,696 - No active profile set, falling back to default profiles: default
+2018-06-22 19:31:27,796 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34e9fd99: startup date [Fri Jun 22 19:31:27 CST 2018]; root of context hierarchy
+2018-06-22 19:31:28,815 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dac8995e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 19:31:29,078 - Tomcat initialized with port(s): 8080 (http)
+2018-06-22 19:31:29,091 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-06-22 19:31:29,099 - Starting service [Tomcat]
+2018-06-22 19:31:29,099 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-22 19:31:29,105 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;d:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;d:\Program Files\Microsoft SQL Server\100\Tools\Binn\;d:\Program Files\Microsoft SQL Server\100\DTS\Binn\;d:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;d:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;G:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;D:\Program Files\Java\jdk1.8.0_172\bin;D:\Program Files\Java\jdk1.8.0_172\jre\bin;C:\Users\pang\AppData\Local\Microsoft\WindowsApps;C:\Users\pang\AppData\Local\GitHubDesktop\bin;.]
+2018-06-22 19:31:29,200 - Initializing Spring embedded WebApplicationContext
+2018-06-22 19:31:29,200 - Root WebApplicationContext: initialization completed in 1404 ms
+2018-06-22 19:31:29,311 - Servlet dispatcherServlet mapped to [/]
+2018-06-22 19:31:29,314 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-22 19:31:29,314 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-22 19:31:29,314 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-22 19:31:29,314 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-22 19:31:29,443 - HikariPool-1 - Starting...
+2018-06-22 19:31:29,613 - HikariPool-1 - Start completed.
+2018-06-22 19:31:29,647 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-06-22 19:31:29,659 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-06-22 19:31:29,804 - HHH000412: Hibernate Core {5.2.17.Final}
+2018-06-22 19:31:29,805 - HHH000206: hibernate.properties not found
+2018-06-22 19:31:29,840 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-22 19:31:29,942 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-06-22 19:31:30,107 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-06-22 19:31:30,183 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:31:30,404 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34e9fd99: startup date [Fri Jun 22 19:31:27 CST 2018]; root of context hierarchy
+2018-06-22 19:31:30,472 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-22 19:31:30,473 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-22 19:31:30,494 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:31:30,494 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:31:30,745 - Registering beans for JMX exposure on startup
+2018-06-22 19:31:30,746 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-06-22 19:31:30,750 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-06-22 19:31:30,762 - Starting ProtocolHandler ["http-nio-8080"]
+2018-06-22 19:31:30,772 - Using a shared selector for servlet write/read
+2018-06-22 19:31:30,783 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-06-22 19:31:30,788 - Started IotApplication in 3.6 seconds (JVM running for 4.425)
+2018-06-22 19:34:19,753 - Starting IotApplication on DESKTOP-59P54G2 with PID 14728 (G:\java\iot\target\classes started by pang in G:\java\iot)
+2018-06-22 19:34:19,756 - No active profile set, falling back to default profiles: default
+2018-06-22 19:34:19,833 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34e9fd99: startup date [Fri Jun 22 19:34:19 CST 2018]; root of context hierarchy
+2018-06-22 19:34:20,968 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de1fc38d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 19:34:21,226 - Tomcat initialized with port(s): 8080 (http)
+2018-06-22 19:34:21,242 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-06-22 19:34:21,252 - Starting service [Tomcat]
+2018-06-22 19:34:21,253 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-22 19:34:21,256 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;d:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;d:\Program Files\Microsoft SQL Server\100\Tools\Binn\;d:\Program Files\Microsoft SQL Server\100\DTS\Binn\;d:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;d:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;G:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;D:\Program Files\Java\jdk1.8.0_172\bin;D:\Program Files\Java\jdk1.8.0_172\jre\bin;C:\Users\pang\AppData\Local\Microsoft\WindowsApps;C:\Users\pang\AppData\Local\GitHubDesktop\bin;.]
+2018-06-22 19:34:21,357 - Initializing Spring embedded WebApplicationContext
+2018-06-22 19:34:21,357 - Root WebApplicationContext: initialization completed in 1524 ms
+2018-06-22 19:34:21,486 - Servlet dispatcherServlet mapped to [/]
+2018-06-22 19:34:21,490 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-22 19:34:21,490 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-22 19:34:21,490 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-22 19:34:21,490 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-22 19:34:21,637 - HikariPool-1 - Starting...
+2018-06-22 19:34:21,793 - HikariPool-1 - Start completed.
+2018-06-22 19:34:21,831 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-06-22 19:34:21,841 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-06-22 19:34:21,907 - HHH000412: Hibernate Core {5.2.17.Final}
+2018-06-22 19:34:21,908 - HHH000206: hibernate.properties not found
+2018-06-22 19:34:21,959 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-22 19:34:22,133 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-06-22 19:34:22,290 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-06-22 19:34:22,370 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:34:22,589 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34e9fd99: startup date [Fri Jun 22 19:34:19 CST 2018]; root of context hierarchy
+2018-06-22 19:34:22,644 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-22 19:34:22,646 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-22 19:34:22,670 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:34:22,670 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:34:22,918 - Registering beans for JMX exposure on startup
+2018-06-22 19:34:22,919 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-06-22 19:34:22,923 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-06-22 19:34:22,935 - Starting ProtocolHandler ["http-nio-8080"]
+2018-06-22 19:34:22,944 - Using a shared selector for servlet write/read
+2018-06-22 19:34:22,958 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-06-22 19:34:22,961 - Started IotApplication in 3.785 seconds (JVM running for 4.584)
+2018-06-22 19:34:23,001 - 【UDP服务启动成功】端口:10001
+2018-06-22 19:34:50,781 - Starting IotApplication on DESKTOP-59P54G2 with PID 1440 (G:\java\iot\target\classes started by pang in G:\java\iot)
+2018-06-22 19:34:50,789 - No active profile set, falling back to default profiles: default
+2018-06-22 19:34:50,848 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34e9fd99: startup date [Fri Jun 22 19:34:50 CST 2018]; root of context hierarchy
+2018-06-22 19:34:51,869 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dac8995e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 19:34:52,106 - Tomcat initialized with port(s): 8080 (http)
+2018-06-22 19:34:52,121 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-06-22 19:34:52,130 - Starting service [Tomcat]
+2018-06-22 19:34:52,130 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-22 19:34:52,134 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;d:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;d:\Program Files\Microsoft SQL Server\100\Tools\Binn\;d:\Program Files\Microsoft SQL Server\100\DTS\Binn\;d:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;d:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;G:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;D:\Program Files\Java\jdk1.8.0_172\bin;D:\Program Files\Java\jdk1.8.0_172\jre\bin;C:\Users\pang\AppData\Local\Microsoft\WindowsApps;C:\Users\pang\AppData\Local\GitHubDesktop\bin;.]
+2018-06-22 19:34:52,243 - Initializing Spring embedded WebApplicationContext
+2018-06-22 19:34:52,244 - Root WebApplicationContext: initialization completed in 1396 ms
+2018-06-22 19:34:52,359 - Servlet dispatcherServlet mapped to [/]
+2018-06-22 19:34:52,365 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-22 19:34:52,366 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-22 19:34:52,366 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-22 19:34:52,366 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-22 19:34:52,489 - HikariPool-1 - Starting...
+2018-06-22 19:34:52,642 - HikariPool-1 - Start completed.
+2018-06-22 19:34:52,678 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-06-22 19:34:52,690 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-06-22 19:34:52,840 - HHH000412: Hibernate Core {5.2.17.Final}
+2018-06-22 19:34:52,840 - HHH000206: hibernate.properties not found
+2018-06-22 19:34:52,876 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-22 19:34:52,982 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-06-22 19:34:53,143 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-06-22 19:34:53,222 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:34:53,440 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34e9fd99: startup date [Fri Jun 22 19:34:50 CST 2018]; root of context hierarchy
+2018-06-22 19:34:53,503 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-22 19:34:53,504 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-22 19:34:53,528 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:34:53,528 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:34:53,777 - Registering beans for JMX exposure on startup
+2018-06-22 19:34:53,780 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-06-22 19:34:53,785 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-06-22 19:34:53,796 - Starting ProtocolHandler ["http-nio-8080"]
+2018-06-22 19:34:53,805 - Using a shared selector for servlet write/read
+2018-06-22 19:34:53,819 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-06-22 19:34:53,821 - Started IotApplication in 3.564 seconds (JVM running for 4.495)
+2018-06-22 19:34:53,860 - 【UDP服务启动成功】端口:10001
+2018-06-22 19:35:13,584 - Starting IotApplication on DESKTOP-59P54G2 with PID 12488 (G:\java\iot\target\classes started by pang in G:\java\iot)
+2018-06-22 19:35:13,587 - No active profile set, falling back to default profiles: default
+2018-06-22 19:35:13,686 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c730b35: startup date [Fri Jun 22 19:35:13 CST 2018]; root of context hierarchy
+2018-06-22 19:35:14,701 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$adf1634a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 19:35:14,939 - Tomcat initialized with port(s): 8080 (http)
+2018-06-22 19:35:14,954 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-06-22 19:35:14,962 - Starting service [Tomcat]
+2018-06-22 19:35:14,963 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-22 19:35:14,968 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;d:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;d:\Program Files\Microsoft SQL Server\100\Tools\Binn\;d:\Program Files\Microsoft SQL Server\100\DTS\Binn\;d:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;d:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;G:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;D:\Program Files\Java\jdk1.8.0_172\bin;D:\Program Files\Java\jdk1.8.0_172\jre\bin;C:\Users\pang\AppData\Local\Microsoft\WindowsApps;C:\Users\pang\AppData\Local\GitHubDesktop\bin;.]
+2018-06-22 19:35:15,068 - Initializing Spring embedded WebApplicationContext
+2018-06-22 19:35:15,068 - Root WebApplicationContext: initialization completed in 1383 ms
+2018-06-22 19:35:15,185 - Servlet dispatcherServlet mapped to [/]
+2018-06-22 19:35:15,189 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-22 19:35:15,189 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-22 19:35:15,189 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-22 19:35:15,189 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-22 19:35:15,326 - HikariPool-1 - Starting...
+2018-06-22 19:35:15,483 - HikariPool-1 - Start completed.
+2018-06-22 19:35:15,518 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-06-22 19:35:15,531 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-06-22 19:35:15,670 - HHH000412: Hibernate Core {5.2.17.Final}
+2018-06-22 19:35:15,672 - HHH000206: hibernate.properties not found
+2018-06-22 19:35:15,710 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-22 19:35:15,820 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-06-22 19:35:15,983 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-06-22 19:35:16,064 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:35:16,289 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c730b35: startup date [Fri Jun 22 19:35:13 CST 2018]; root of context hierarchy
+2018-06-22 19:35:16,355 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-22 19:35:16,355 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-22 19:35:16,380 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:35:16,381 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:35:16,618 - Registering beans for JMX exposure on startup
+2018-06-22 19:35:16,620 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-06-22 19:35:16,624 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-06-22 19:35:16,635 - Starting ProtocolHandler ["http-nio-8080"]
+2018-06-22 19:35:16,643 - Using a shared selector for servlet write/read
+2018-06-22 19:35:16,656 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-06-22 19:35:16,659 - Started IotApplication in 3.693 seconds (JVM running for 4.452)
+2018-06-22 19:35:16,698 - 【UDP服务启动成功】端口:10001
+2018-06-22 19:35:17,039 - 【TCP服务启动成功】端口:10002
+2018-06-22 19:35:58,077 - 【TCP收到消息】：333
+2018-06-22 19:36:18,093 - 【客户端断开连接】
+2018-06-22 19:36:59,755 - Starting IotApplication on DESKTOP-59P54G2 with PID 2156 (G:\java\iot\target\classes started by pang in G:\java\iot)
+2018-06-22 19:36:59,788 - No active profile set, falling back to default profiles: default
+2018-06-22 19:36:59,827 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34e9fd99: startup date [Fri Jun 22 19:36:59 CST 2018]; root of context hierarchy
+2018-06-22 19:37:00,916 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a78e6471] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 19:37:01,164 - Tomcat initialized with port(s): 8080 (http)
+2018-06-22 19:37:01,180 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-06-22 19:37:01,187 - Starting service [Tomcat]
+2018-06-22 19:37:01,188 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-22 19:37:01,193 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;d:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;d:\Program Files\Microsoft SQL Server\100\Tools\Binn\;d:\Program Files\Microsoft SQL Server\100\DTS\Binn\;d:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;d:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;G:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;D:\Program Files\Java\jdk1.8.0_172\bin;D:\Program Files\Java\jdk1.8.0_172\jre\bin;C:\Users\pang\AppData\Local\Microsoft\WindowsApps;C:\Users\pang\AppData\Local\GitHubDesktop\bin;.]
+2018-06-22 19:37:01,288 - Initializing Spring embedded WebApplicationContext
+2018-06-22 19:37:01,288 - Root WebApplicationContext: initialization completed in 1461 ms
+2018-06-22 19:37:01,399 - Servlet dispatcherServlet mapped to [/]
+2018-06-22 19:37:01,403 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-22 19:37:01,403 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-22 19:37:01,403 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-22 19:37:01,403 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-22 19:37:01,539 - HikariPool-1 - Starting...
+2018-06-22 19:37:01,696 - HikariPool-1 - Start completed.
+2018-06-22 19:37:01,731 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-06-22 19:37:01,743 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-06-22 19:37:01,885 - HHH000412: Hibernate Core {5.2.17.Final}
+2018-06-22 19:37:01,886 - HHH000206: hibernate.properties not found
+2018-06-22 19:37:01,924 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-22 19:37:02,027 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-06-22 19:37:02,188 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-06-22 19:37:02,266 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:37:02,482 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34e9fd99: startup date [Fri Jun 22 19:36:59 CST 2018]; root of context hierarchy
+2018-06-22 19:37:02,550 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-22 19:37:02,551 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-22 19:37:02,585 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:37:02,585 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:37:02,821 - Registering beans for JMX exposure on startup
+2018-06-22 19:37:02,822 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-06-22 19:37:02,828 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-06-22 19:37:02,838 - Starting ProtocolHandler ["http-nio-8080"]
+2018-06-22 19:37:02,849 - Using a shared selector for servlet write/read
+2018-06-22 19:37:02,863 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-06-22 19:37:02,866 - Started IotApplication in 3.654 seconds (JVM running for 4.459)
+2018-06-22 19:37:02,907 - 【UDP服务启动成功】端口:10001
+2018-06-22 19:37:03,248 - 【TCP服务启动成功】端口:10002
+2018-06-22 19:37:20,512 - 【有新的客户端连接】
+2018-06-22 19:37:40,533 - 【客户端断开连接】
+2018-06-22 19:44:46,551 - Starting IotApplication on DESKTOP-59P54G2 with PID 10616 (G:\java\iot\target\classes started by pang in G:\java\iot)
+2018-06-22 19:44:46,557 - No active profile set, falling back to default profiles: default
+2018-06-22 19:44:46,604 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34e9fd99: startup date [Fri Jun 22 19:44:46 CST 2018]; root of context hierarchy
+2018-06-22 19:44:47,788 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c97d8184] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-22 19:44:48,036 - Tomcat initialized with port(s): 8080 (http)
+2018-06-22 19:44:48,052 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-06-22 19:44:48,059 - Starting service [Tomcat]
+2018-06-22 19:44:48,059 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-22 19:44:48,065 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;d:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;d:\Program Files\Microsoft SQL Server\100\Tools\Binn\;d:\Program Files\Microsoft SQL Server\100\DTS\Binn\;d:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;d:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;G:\maven\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;D:\Program Files\Java\jdk1.8.0_172\bin;D:\Program Files\Java\jdk1.8.0_172\jre\bin;C:\Users\pang\AppData\Local\Microsoft\WindowsApps;C:\Users\pang\AppData\Local\GitHubDesktop\bin;.]
+2018-06-22 19:44:48,159 - Initializing Spring embedded WebApplicationContext
+2018-06-22 19:44:48,160 - Root WebApplicationContext: initialization completed in 1556 ms
+2018-06-22 19:44:48,282 - Servlet dispatcherServlet mapped to [/]
+2018-06-22 19:44:48,285 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-22 19:44:48,285 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-22 19:44:48,285 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-22 19:44:48,285 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-22 19:44:48,415 - HikariPool-1 - Starting...
+2018-06-22 19:44:48,570 - HikariPool-1 - Start completed.
+2018-06-22 19:44:48,605 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-06-22 19:44:48,618 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-06-22 19:44:48,768 - HHH000412: Hibernate Core {5.2.17.Final}
+2018-06-22 19:44:48,769 - HHH000206: hibernate.properties not found
+2018-06-22 19:44:48,807 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-22 19:44:48,907 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-06-22 19:44:49,071 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-06-22 19:44:49,151 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:44:49,376 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34e9fd99: startup date [Fri Jun 22 19:44:46 CST 2018]; root of context hierarchy
+2018-06-22 19:44:49,442 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-22 19:44:49,443 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-22 19:44:49,469 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:44:49,469 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-22 19:44:49,714 - Registering beans for JMX exposure on startup
+2018-06-22 19:44:49,715 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-06-22 19:44:49,720 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-06-22 19:44:49,731 - Starting ProtocolHandler ["http-nio-8080"]
+2018-06-22 19:44:49,739 - Using a shared selector for servlet write/read
+2018-06-22 19:44:49,755 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-06-22 19:44:49,760 - Started IotApplication in 3.798 seconds (JVM running for 4.665)
+2018-06-22 19:44:49,799 - 【UDP服务启动成功】端口:10001
+2018-06-22 19:44:50,091 - 【TCP服务启动成功】端口:10002
+2018-06-22 19:45:02,768 - 【有新的客户端连接】IP:192.168.1.114
+2018-06-22 19:45:22,792 - 【客户端断开连接】
+2018-06-22 19:46:33,694 - 【有新的客户端连接】IP:127.0.0.1
+2018-06-22 19:46:33,694 - 【有新的客户端连接】IP:127.0.0.1
+2018-06-22 19:46:33,695 - 【有新的客户端连接】IP:127.0.0.1
+2018-06-22 19:46:33,695 - 【有新的客户端连接】IP:127.0.0.1
+2018-06-22 19:46:33,695 - 【有新的客户端连接】IP:127.0.0.1
+2018-06-22 19:46:33,696 - 【有新的客户端连接】IP:127.0.0.1
+2018-06-22 19:46:33,696 - 【有新的客户端连接】IP:127.0.0.1
+2018-06-22 19:46:33,697 - 【有新的客户端连接】IP:127.0.0.1
+2018-06-22 19:46:33,697 - 【有新的客户端连接】IP:127.0.0.1
+2018-06-22 19:46:33,697 - 【有新的客户端连接】IP:127.0.0.1
+2018-06-22 19:46:41,087 - 【客户端断开连接】
+2018-06-22 19:46:41,088 - 【客户端断开连接】
+2018-06-22 19:46:41,102 - 【客户端断开连接】
+2018-06-22 19:46:41,102 - 【客户端断开连接】
+2018-06-22 19:46:41,102 - 【客户端断开连接】
+2018-06-22 19:46:41,102 - 【客户端断开连接】
+2018-06-22 19:46:41,102 - 【客户端断开连接】
+2018-06-22 19:46:41,102 - 【客户端断开连接】
+2018-06-22 19:46:41,102 - 【客户端断开连接】
+2018-06-22 19:46:41,102 - 【客户端断开连接】
