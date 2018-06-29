@@ -39,7 +39,7 @@ public class IotSlaveInfoController {
                              Map<String,Object> map){
 
 
-        log.info("【进入list方法】");
+     //   log.info("【进入list方法】");
         PageRequest pageRequest=new PageRequest(page-1,size);
         String userSerialNumber=CookieUtil.getCookie();
         Page<SlaveInfo> slaveInfoPage=slaveInfoService.findAllByUserSerialNumberInOrderByCreateTimeDesc(pageRequest,userSerialNumber);
@@ -58,8 +58,8 @@ public class IotSlaveInfoController {
                      Map<String,Object> map,
                      HttpServletResponse response){
 
-        log.info("【进入slave/save】");
-        log.info("【form】:{}",form.toString());
+      //  log.info("【进入slave/save】");
+      //  log.info("【form】:{}",form.toString());
         if(bindingResult.hasErrors()){
             map.put("msg",bindingResult.getFieldError().getDefaultMessage());
             map.put("url","/iot/slave/list");
@@ -107,7 +107,7 @@ public class IotSlaveInfoController {
     @org.springframework.transaction.annotation.Transactional
     public ModelAndView delete(@RequestParam("slaveNumber") Integer slaveNumber,
                                Map<String,Object> map){
-        log.info("【设备编号】：{}",slaveNumber);
+     //   log.info("【设备编号】：{}",slaveNumber);
         String userSerialNumber=CookieUtil.getCookie();
         if(slaveNumber==null){
             map.put("msg",ResultEnum.SLAVE_NUMBER_ERROR.getMessage());

@@ -30,46 +30,28 @@
                         欢迎使用!
                     </h2>
                     <p>
-
-                        This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
+                        欢迎使用本测试平台，本测试平台仅提供给购买本公司通讯模块的用户使用，本平台支持TCP，UDP通信方式，其中TCP通信方式为长连接，心跳时间为120S，120S之内没有通信交互，平台将断开TCP连接，再次通信需要重新连接。用户使用通讯模块向指定ID+端口根据我们制定的协议
+                        发送数据，发送完成后，在本平台可查看发送数据记录，完成通讯的测试，下面提供测试方法。
                     </p>
                 </div>
-                <#--<div class="list-group">-->
-                    <#--<a href="#" class="list-group-item active">Home</a>-->
-                    <#--<div class="list-group-item">-->
-                        <#--List header-->
-                    <#--</div>-->
-                    <#--<div class="list-group-item">-->
-                        <#--<h4 class="list-group-item-heading">-->
-                            <#--List group item heading-->
-                        <#--</h4>-->
-                        <#--<p class="list-group-item-text">-->
-                            <#--...-->
-                        <#--</p>-->
-                    <#--</div>-->
-                    <#--<div class="list-group-item">-->
-                        <#--<span class="badge">14</span> Help-->
-                    <#--</div> <a class="list-group-item active"> <span class="badge">14</span> Help</a>-->
-                <#--</div>-->
             </div>
         </div>
     </div>
     </div>
+    <div class="container-fluid">
     <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
+        <div class="panel panel-warning">
             <div class="panel-heading">
                 <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion"
                        href="#collapseOne">
-                        点击我进行展开，再次点击我进行折叠。第 1 部分--hide 方法
+                        测试IP和端口
                     </a>
                 </h4>
             </div>
             <div id="collapseOne" class="panel-collapse collapse in">
                 <div class="panel-body">
-                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
-                    nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                    lomo.
+                本平台指定IP+端口，IP为118.24.14.231，TCP通信端口为：10002，UDP通信端口为：10001。
                 </div>
             </div>
         </div>
@@ -78,15 +60,36 @@
                 <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion"
                        href="#collapseTwo">
-                        点击我进行展开，再次点击我进行折叠。第 2 部分--show 方法
+                        测试协议
                     </a>
                 </h4>
             </div>
             <div id="collapseTwo" class="panel-collapse collapse">
                 <div class="panel-body">
-                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
-                    nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                    lomo.
+                    <div class="col-md-12 column">
+                        <table class="table table-bordered" >
+                            <thead>
+                            <tr>
+                                <th>协议头（2字节）</th>
+                                <th>用户序列号（3字节）</th>
+                                <th>设备ID（3字节）</th>
+                                <th>数据长度（2字节）</th>
+                                <th>数据内容（自定义）</th>
+                                <th>校验（1字节）</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr >
+                                <td>55 AA</td>
+                                <td>如ID为123456的对应HEX数据为 1E 24 00 </td>
+                                <td>如ID为5的对呀HEX数据为 00 00 05</td>
+                                <td>数据包所携带数据的长度</td>
+                                <td>携带的数据</td>
+                                <td>校验值为和校验，数据头到除校验位之外求和，并取低八位为校验和</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
@@ -95,35 +98,46 @@
                 <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion"
                        href="#collapseThree">
-                        点击我进行展开，再次点击我进行折叠。第 3 部分--toggle 方法
+                        测试数据示例(数据均为16进制），第一行数据为发送数据示例，第二行为十进制数据示例。
                     </a>
                 </h4>
             </div>
             <div id="collapseThree" class="panel-collapse collapse">
                 <div class="panel-body">
-                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
-                    nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                    lomo.
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th>协议头（2字节）</th>
+                            <th>用户序列号（3字节）</th>
+                            <th>设备ID（3字节）</th>
+                            <th>数据长度（2字节）</th>
+                            <th>数据内容（自定义）</th>
+                            <th>校验（1字节）</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>55 AA</td>
+                            <td>5A 94 09</td>
+                            <td>00 00 04</td>
+                            <td>00 02</td>
+                            <td>11 11</td>
+                            <td>1E</td>
+                        </tr>
+                        <tr>
+                            <td>55 AA</td>
+                            <td>371017</td>
+                            <td>4</td>
+                            <td>2</td>
+                            <td>11 11</td>
+                            <td>1E</td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
-        <div class="panel panel-warning">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion"
-                       href="#collapseFour">
-                        点击我进行展开，再次点击我进行折叠。第 4 部分--options 方法
-                    </a>
-                </h4>
-            </div>
-            <div id="collapseFour" class="panel-collapse collapse">
-                <div class="panel-body">
-                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
-                    nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                    lomo.
-                </div>
-            </div>
-        </div>
+    </div>
     </div>
     <script type="text/javascript">
         $(function () { $('#collapseFour').collapse({

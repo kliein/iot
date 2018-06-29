@@ -39,7 +39,7 @@ public class AdminController {
 
     @GetMapping(value = "/login")
     public ModelAndView login(){
-        log.info("【进入login方法】");
+       // log.info("【进入login方法】");
         return new ModelAndView("admin/login");
     }
 
@@ -48,7 +48,7 @@ public class AdminController {
                              BindingResult bindingResult,
                              Map<String,Object> map,
                              HttpServletResponse response){
-        log.info("【进入save方法】");
+       // log.info("【进入save方法】");
         if(bindingResult.hasErrors()){
             map.put("msg",bindingResult.getFieldError().getDefaultMessage());
             map.put("url","/iot/admin/login");
@@ -92,7 +92,7 @@ public class AdminController {
                                  BindingResult bindingResult,
                                  Map<String,Object> map){
 
-        log.info("【form】{}",form.getSerialNumber());
+     //   log.info("【form】{}",form.getSerialNumber());
         if(bindingResult.hasErrors()){
             map.put("msg",bindingResult.getFieldError().getDefaultMessage());
             map.put("url","/iot/admin/login");

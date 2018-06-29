@@ -47,7 +47,7 @@ public class TCPServer {
                     //重要，该类实现心跳检测,第一个参数：读超时时间。第二个参数：写超时时间。第三个参数：读写超时时间。
                     //心跳作用：清除闲置的会话，释放资源。
                     //对客户端来说，心跳可实现断线重新连接。
-                    ch.pipeline().addLast(new IdleStateHandler(10,10,20));
+                    ch.pipeline().addLast(new IdleStateHandler(60,60,120));
                     //过滤编码
                     ch.pipeline().addLast(new ByteArrayDecoder());
                     ch.pipeline().addLast(new ByteArrayEncoder());
