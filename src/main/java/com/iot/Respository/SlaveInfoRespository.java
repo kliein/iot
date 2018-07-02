@@ -13,6 +13,8 @@ public interface SlaveInfoRespository extends JpaRepository<SlaveInfo,Integer> {
 
     SlaveInfo findBySlaveNumberIn(Integer slaveNumber);
 
+    SlaveInfo findByUserSerialNumberAndSlaveNumberIn(String userSerialNumber, Integer slaveNumber);
+
     int deleteByUserSerialNumberAndSlaveNumberIn(String userSerialNumber,Integer slaveNumber);
 
 }

@@ -38,4 +38,9 @@ public class SlaveInfoServiceImpl implements SlaveInfoService {
     public int deleteByUserSerialNumberAndSlaveNumberIn(String userSerialNumber, Integer slaveNumber) {
         return slaveInfoRespository.deleteByUserSerialNumberAndSlaveNumberIn(userSerialNumber,slaveNumber);
     }
+
+    @Override
+    public SlaveInfo findByUserSerialNumberAndSlaveNumberIn(String userSerialNumber, Integer slaveNumber) {
+        return slaveInfoRespository.findByUserSerialNumberAndSlaveNumberIn(userSerialNumber,slaveNumber);
+    }
 }

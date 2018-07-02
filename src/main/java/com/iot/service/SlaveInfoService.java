@@ -10,5 +10,6 @@ public interface SlaveInfoService {
     SlaveInfo findByUserSerialNumberIn(String userSerialNumber);
     Page<SlaveInfo> findAllByUserSerialNumberInOrderByCreateTimeDesc(Pageable pageable,String userSerialNumber);
     SlaveInfo findBySlaveNumberIn(Integer slaveNumber);
+    SlaveInfo findByUserSerialNumberAndSlaveNumberIn(String userSerialNumber,Integer slaveNumber);
     int deleteByUserSerialNumberAndSlaveNumberIn(String userSerialNumber,Integer slaveNumber);
 }

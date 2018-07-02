@@ -60,6 +60,7 @@ public class IotSlaveInfoController {
 
       //  log.info("【进入slave/save】");
       //  log.info("【form】:{}",form.toString());
+        String userSerialNumber=CookieUtil.getCookie();
         if(bindingResult.hasErrors()){
             map.put("msg",bindingResult.getFieldError().getDefaultMessage());
             map.put("url","/iot/slave/list");
@@ -67,7 +68,7 @@ public class IotSlaveInfoController {
         }
         SlaveInfo slaveInfo=new SlaveInfo();
         try {
-            slaveInfo=slaveInfoService.findBySlaveNumberIn(form.getSlaveNumber());
+            slaveInfo=slaveInfoService.findByUserSerialNumberAndSlaveNumberIn(userSerialNumber,form.getSlaveNumber());
 
         }
         catch (IotException e){
