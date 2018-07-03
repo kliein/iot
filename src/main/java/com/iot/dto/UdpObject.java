@@ -1,18 +1,14 @@
-package com.iot.socket;
+package com.iot.dto;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.socket.DatagramPacket;
 import lombok.Data;
 
 @Data
-public class UdpEntity {
+public class UdpObject {
 
-
+    private String userSerialNumber;
+    private int slaveNumber;
     private DatagramPacket datagramPacket;
     private ChannelHandlerContext ctx;
-
-    public UdpEntity(ChannelHandlerContext ctx,DatagramPacket datagramPacket) {
-        this.datagramPacket = datagramPacket;
-        this.ctx = ctx;
-    }
 }

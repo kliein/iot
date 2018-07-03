@@ -1,11 +1,43 @@
 package com.iot.ProtocolAnalysis;
 
 
+import com.iot.constant.NetObject;
+import io.netty.channel.ChannelHandlerContext;
+import io.netty.channel.socket.DatagramPacket;
+
 //协议解析../
 public class Analysis {
 
     private final int FIXED_LENGTH=11;
 
+
+    public static boolean udpIsExist(DatagramPacket packet){
+        String path=packet.sender().getHostString() +":"+ packet.sender().getPort();
+        for(int i=0;i<NetObject.udpCtxList.size();i++){
+            String socket=NetObject.udpCtxList.get(i).getDatagramPacket().sender().getHostString() +":"+ NetObject.udpCtxList.get(i).getDatagramPacket().sender().getPort();
+            if(path.equals(socket)){
+                return true;
+            }
+
+        }
+        return false;
+    }
+/**
+ *@Author:
+ *@Description:
+ *@Date:16:01 2018/7/2 
+ */
+    public boolean isConnect(int[] data){
+        if((data[0]!=0xaa)||(data[1]!=0x55)){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+    
+    
+    
     //返回数据包
     public String analysisData(int[] data){
         String upData="";

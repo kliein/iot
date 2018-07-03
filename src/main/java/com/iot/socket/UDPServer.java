@@ -1,7 +1,9 @@
 package com.iot.socket;
 
+import com.iot.constant.NetObject;
 import com.iot.handler.UDPServerHandler;
 import io.netty.bootstrap.Bootstrap;
+import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelOption;
 import io.netty.channel.EventLoopGroup;
@@ -41,6 +43,7 @@ public class UDPServer {
                     .handler(new UDPServerHandler());
 
             b.bind(port).sync().channel().closeFuture().await();
+            NetObject.udpChannel = b.bind(port).sync().channel();
         }
         catch (InterruptedException e){
             e.printStackTrace();

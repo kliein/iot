@@ -2,6 +2,7 @@ package com.iot.handler;
 
 import com.iot.IotApplication;
 import com.iot.constant.CommunicationType;
+import com.iot.constant.NetObject;
 import com.iot.dto.TestInfoDTO;
 import com.iot.socket.TCPServer;
 import com.iot.util.ByteUtil;
@@ -30,7 +31,7 @@ public class TCPServerHandler extends SimpleChannelInboundHandler<byte[]>{
        // String clientIP = socket.getAddress().getHostAddress();
         int[] res=ByteUtil.convert(msg);
         TestInfoDTO testDataInfoService1=IotApplication.getBean(TestInfoDTO.class);//从spring容器取
-        testDataInfoService1.insertTestData(res,socket,CommunicationType.Tcp);
+        testDataInfoService1.insertTestData(res,socket,CommunicationType.Tcp,ctx,null);
         IotApplication.destroy(TestInfoDTO.class.getName());
         ctx.channel().writeAndFlush(msg);
     }
@@ -44,6 +45,8 @@ public class TCPServerHandler extends SimpleChannelInboundHandler<byte[]>{
     @Override
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
         log.info("【客户端断开连接】");
+        //TODO
+        //从集合中移除断开的客户端
         super.channelInactive(ctx);
     }
 
@@ -75,6 +78,7 @@ public class TCPServerHandler extends SimpleChannelInboundHandler<byte[]>{
         InetSocketAddress socket = (InetSocketAddress) ctx.channel().remoteAddress();
         String clientIP = socket.getAddress().getHostAddress();
         TCPServer.ctxTcpList.add(ctx);
+        NetObject.tcpCtxList.add(ctx);
         log.info("【有新的客户端连接】IP:{}",clientIP);
         super.channelActive(ctx);
     }
