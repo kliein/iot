@@ -1,0 +1,39 @@
+2018-07-06 17:12:37,768 - Starting SlaveInfoRespositoryTest on DESKTOP-59P54G2 with PID 21284 (started by pang in G:\java\javacode\iot)
+2018-07-06 17:12:37,768 - The following profiles are active: dev
+2018-07-06 17:12:37,816 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5b799640: startup date [Fri Jul 06 17:12:37 CST 2018]; root of context hierarchy
+2018-07-06 17:12:38,165 - HV000001: Hibernate Validator 5.3.5.Final
+2018-07-06 17:12:42,107 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-07-06 17:12:42,123 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-07-06 17:12:42,192 - HHH000412: Hibernate Core {5.0.12.Final}
+2018-07-06 17:12:42,193 - HHH000206: hibernate.properties not found
+2018-07-06 17:12:42,194 - HHH000021: Bytecode provider name : javassist
+2018-07-06 17:12:42,233 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-06 17:12:42,438 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-06 17:12:43,060 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-07-06 17:12:43,584 - **********
+2018-07-06 17:12:44,111 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5b799640: startup date [Fri Jul 06 17:12:37 CST 2018]; root of context hierarchy
+2018-07-06 17:12:44,191 - Mapped "{[/admin/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.AdminController.register(com.iot.form.RegisterForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-06 17:12:44,192 - Mapped "{[/admin/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.AdminController.save(com.iot.form.RegisterForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletResponse)
+2018-07-06 17:12:44,192 - Mapped "{[/admin/login],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.AdminController.login()
+2018-07-06 17:12:44,192 - Mapped "{[/admin/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.AdminController.logout(javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-06 17:12:44,193 - Mapped "{[/company/authorize],methods=[GET]}" onto public java.lang.String com.iot.controller.CompanyInfoContronller.authorize(java.lang.String)
+2018-07-06 17:12:44,194 - Mapped "{[/slave/delete],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.IotSlaveInfoController.delete(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-06 17:12:44,195 - Mapped "{[/slave/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.IotSlaveInfoController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-06 17:12:44,195 - Mapped "{[/slave/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.IotSlaveInfoController.save(com.iot.form.SlaveForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletResponse)
+2018-07-06 17:12:44,196 - Mapped "{[/test/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.IotTestDataController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-06 17:12:44,196 - Mapped "{[/test/explain],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.IotTestDataController.explain(java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-06 17:12:44,198 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-06 17:12:44,198 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-06 17:12:44,231 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-06 17:12:44,231 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-06 17:12:44,247 - Detected @ExceptionHandler methods in userExceptionHandler
+2018-07-06 17:12:44,269 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-06 17:12:44,314 - Adding welcome page: ServletContext resource [/index.html]
+2018-07-06 17:12:44,512 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-07-06 17:12:44,697 - Started SlaveInfoRespositoryTest in 7.746 seconds (JVM running for 8.648)
+2018-07-06 17:12:44,758 - SlaveInfo(slaveId=0, userSerialNumber=456123, slaveNumber=2, slaveIp=118.26.145.25, slaveRemark=hello, createTime=null, updateTime=null)
+2018-07-06 17:12:44,890 - 【UDP服务启动成功】端口:10001
+2018-07-06 17:12:44,967 - Closing org.springframework.web.context.support.GenericWebApplicationContext@5b799640: startup date [Fri Jul 06 17:12:37 CST 2018]; root of context hierarchy
+2018-07-06 17:12:44,974 - Closing JPA EntityManagerFactory for persistence unit 'default'

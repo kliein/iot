@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(value = "/company")
 @Slf4j
-public class CompanyInfoContronller {
+public class CompanyInfoController {
 
     @Autowired
     private CompanyInfoService companyInfoService;

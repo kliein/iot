@@ -39,6 +39,7 @@ public class IotTestDataController {
         map.put("size",size);
         map.put("userName",User.userName);
         map.put("serialNumber",User.serialNumber);
+
         return new ModelAndView("main/index",map);
 
     }

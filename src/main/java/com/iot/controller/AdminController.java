@@ -92,7 +92,6 @@ public class AdminController {
                                  BindingResult bindingResult,
                                  Map<String,Object> map){
 
-     //   log.info("【form】{}",form.getSerialNumber());
         if(bindingResult.hasErrors()){
             map.put("msg",bindingResult.getFieldError().getDefaultMessage());
             map.put("url","/iot/admin/login");

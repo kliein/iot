@@ -15,9 +15,6 @@ public class ByteUtil {
             }
         }
 
-//        byte byteNum = (byte)255;　　
-//        int intNum = (int)byteNum;
-//        int UnByteNum = intNum & 0xff;
         return  returndata;
     }
 }

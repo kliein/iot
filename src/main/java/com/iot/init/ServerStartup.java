@@ -1,5 +1,6 @@
 package com.iot.init;
 
+import com.iot.quartz.HelloSecheduler;
 import com.iot.thread.TCP;
 import com.iot.thread.UDP;
 import org.springframework.context.ApplicationListener;
@@ -15,5 +16,8 @@ public class ServerStartup implements ApplicationListener<ContextRefreshedEvent>
         Thread t2=new Thread(udp);
         t1.start();
         t2.start();
+
+        HelloSecheduler helloSecheduler=new HelloSecheduler();
+        helloSecheduler.run();
     }
 }

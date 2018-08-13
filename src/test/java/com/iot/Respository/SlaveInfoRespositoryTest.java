@@ -28,6 +28,7 @@ public class SlaveInfoRespositoryTest {
         slaveInfo.setSlaveIp("118.26.145.25");
         slaveInfo.setSlaveNumber(2);
         slaveInfo.setSlaveRemark("hello");
+        log.info(slaveInfo.toString());
         slaveInfoRespository.save(slaveInfo);
 
     }

@@ -1,0 +1,172 @@
+2018-07-23 11:19:38,384 - Starting IotApplication on DESKTOP-59P54G2 with PID 13772 (G:\java\javacode\iot\target\classes started by pang in G:\java\javacode\iot)
+2018-07-23 11:19:38,386 - The following profiles are active: dev
+2018-07-23 11:19:38,448 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e694b3f: startup date [Mon Jul 23 11:19:38 CST 2018]; root of context hierarchy
+2018-07-23 11:19:38,663 - HV000001: Hibernate Validator 5.3.5.Final
+2018-07-23 11:19:39,777 - Tomcat initialized with port(s): 8080 (http)
+2018-07-23 11:19:39,784 - Starting service Tomcat
+2018-07-23 11:19:39,785 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-07-23 11:19:39,862 - Initializing Spring embedded WebApplicationContext
+2018-07-23 11:19:39,862 - Root WebApplicationContext: initialization completed in 1414 ms
+2018-07-23 11:19:40,014 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-23 11:19:40,015 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-23 11:19:40,015 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-23 11:19:40,015 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-23 11:19:40,016 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-07-23 11:19:40,016 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-23 11:19:42,104 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-07-23 11:19:42,115 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-07-23 11:19:42,206 - HHH000412: Hibernate Core {5.0.12.Final}
+2018-07-23 11:19:42,207 - HHH000206: hibernate.properties not found
+2018-07-23 11:19:42,208 - HHH000021: Bytecode provider name : javassist
+2018-07-23 11:19:42,275 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-23 11:19:42,411 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-23 11:19:42,843 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-07-23 11:19:43,158 - **********
+2018-07-23 11:19:43,388 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e694b3f: startup date [Mon Jul 23 11:19:38 CST 2018]; root of context hierarchy
+2018-07-23 11:19:43,444 - Mapped "{[/admin/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.AdminController.register(com.iot.form.RegisterForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-23 11:19:43,445 - Mapped "{[/admin/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.AdminController.save(com.iot.form.RegisterForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletResponse)
+2018-07-23 11:19:43,445 - Mapped "{[/admin/login],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.AdminController.login()
+2018-07-23 11:19:43,445 - Mapped "{[/admin/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.AdminController.logout(javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-23 11:19:43,446 - Mapped "{[/company/authorize],methods=[GET]}" onto public java.lang.String com.iot.controller.CompanyInfoController.authorize(java.lang.String)
+2018-07-23 11:19:43,447 - Mapped "{[/slave/delete],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.IotSlaveInfoController.delete(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-23 11:19:43,447 - Mapped "{[/slave/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.IotSlaveInfoController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-23 11:19:43,448 - Mapped "{[/slave/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.IotSlaveInfoController.save(com.iot.form.SlaveForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletResponse)
+2018-07-23 11:19:43,449 - Mapped "{[/test/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.IotTestDataController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-23 11:19:43,449 - Mapped "{[/test/explain],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.IotTestDataController.explain(java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-23 11:19:43,450 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-23 11:19:43,451 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-23 11:19:43,475 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 11:19:43,475 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 11:19:43,488 - Detected @ExceptionHandler methods in userExceptionHandler
+2018-07-23 11:19:43,505 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 11:19:43,540 - Adding welcome page: class path resource [static/index.html]
+2018-07-23 11:19:43,699 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-07-23 11:19:43,825 - 
+
+Using default security password: 4572054b-367d-48cf-8788-c551ee00cde8
+
+2018-07-23 11:19:43,871 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2018-07-23 11:19:43,927 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5e37fb82, org.springframework.security.web.context.SecurityContextPersistenceFilter@796c68bf, org.springframework.security.web.header.HeaderWriterFilter@75ed125a, org.springframework.security.web.authentication.logout.LogoutFilter@1b3a9ef4, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@49038f97, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a7163e3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e4f4092, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59ec7020, org.springframework.security.web.session.SessionManagementFilter@790ac3e0, org.springframework.security.web.access.ExceptionTranslationFilter@19bfbe28, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69eb544f]
+2018-07-23 11:19:44,043 - Registering beans for JMX exposure on startup
+2018-07-23 11:19:44,079 - Using default implementation for ThreadExecutor
+2018-07-23 11:19:44,081 - Job execution threads will use class loader of thread: main
+2018-07-23 11:19:44,089 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-07-23 11:19:44,089 - Quartz Scheduler v.2.2.3 created.
+2018-07-23 11:19:44,091 - RAMJobStore initialized.
+2018-07-23 11:19:44,092 - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-07-23 11:19:44,092 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-07-23 11:19:44,092 - Quartz scheduler version: 2.2.3
+2018-07-23 11:19:44,092 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-07-23 11:19:44,118 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-23 11:19:44,119 - 2018-07-23 11:19:44
+2018-07-23 11:19:44,130 - Starting ProtocolHandler ["http-nio-8080"]
+2018-07-23 11:19:44,140 - Using a shared selector for servlet write/read
+2018-07-23 11:19:44,154 - 【UDP服务启动成功】端口:10001
+2018-07-23 11:19:44,157 - Tomcat started on port(s): 8080 (http)
+2018-07-23 11:19:44,161 - Started IotApplication in 6.193 seconds (JVM running for 7.808)
+2018-07-23 11:19:44,362 - UDP连接
+2018-07-23 11:19:44,514 - 【TCP服务启动成功】端口:10002
+2018-07-23 11:19:46,061 - 2018-07-23 11:19:46
+2018-07-23 11:19:48,061 - 2018-07-23 11:19:48
+2018-07-23 11:19:50,061 - 2018-07-23 11:19:50
+2018-07-23 11:19:52,060 - 2018-07-23 11:19:52
+2018-07-23 11:19:54,061 - 2018-07-23 11:19:54
+2018-07-23 11:19:56,061 - 2018-07-23 11:19:56
+2018-07-23 11:19:58,060 - 2018-07-23 11:19:58
+2018-07-23 11:20:00,061 - 2018-07-23 11:20:00
+2018-07-23 11:20:02,061 - 2018-07-23 11:20:02
+2018-07-23 17:10:20,278 - Starting IotApplication on DESKTOP-59P54G2 with PID 2984 (G:\java\javacode\iot\target\classes started by pang in G:\java\javacode\iot)
+2018-07-23 17:10:20,280 - The following profiles are active: dev
+2018-07-23 17:10:20,306 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41d477ed: startup date [Mon Jul 23 17:10:20 CST 2018]; root of context hierarchy
+2018-07-23 17:10:20,595 - HV000001: Hibernate Validator 5.3.5.Final
+2018-07-23 17:10:21,601 - Tomcat initialized with port(s): 8080 (http)
+2018-07-23 17:10:21,607 - Starting service Tomcat
+2018-07-23 17:10:21,608 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-07-23 17:10:21,680 - Initializing Spring embedded WebApplicationContext
+2018-07-23 17:10:21,680 - Root WebApplicationContext: initialization completed in 1374 ms
+2018-07-23 17:10:21,826 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-23 17:10:21,826 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-23 17:10:21,826 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-23 17:10:21,826 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-23 17:10:21,827 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-07-23 17:10:21,827 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-23 17:10:23,761 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-07-23 17:10:23,770 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-07-23 17:10:23,826 - HHH000412: Hibernate Core {5.0.12.Final}
+2018-07-23 17:10:23,827 - HHH000206: hibernate.properties not found
+2018-07-23 17:10:23,828 - HHH000021: Bytecode provider name : javassist
+2018-07-23 17:10:23,855 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-23 17:10:23,929 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-23 17:10:24,289 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-07-23 17:10:24,564 - **********
+2018-07-23 17:10:24,790 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41d477ed: startup date [Mon Jul 23 17:10:20 CST 2018]; root of context hierarchy
+2018-07-23 17:10:24,841 - Mapped "{[/admin/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.AdminController.register(com.iot.form.RegisterForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-23 17:10:24,842 - Mapped "{[/admin/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.AdminController.save(com.iot.form.RegisterForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletResponse)
+2018-07-23 17:10:24,842 - Mapped "{[/admin/login],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.AdminController.login()
+2018-07-23 17:10:24,842 - Mapped "{[/admin/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.AdminController.logout(javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-23 17:10:24,843 - Mapped "{[/company/authorize],methods=[GET]}" onto public java.lang.String com.iot.controller.CompanyInfoController.authorize(java.lang.String)
+2018-07-23 17:10:24,844 - Mapped "{[/slave/delete],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.IotSlaveInfoController.delete(java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-23 17:10:24,844 - Mapped "{[/slave/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.IotSlaveInfoController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-23 17:10:24,844 - Mapped "{[/slave/save],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.IotSlaveInfoController.save(com.iot.form.SlaveForm,org.springframework.validation.BindingResult,java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletResponse)
+2018-07-23 17:10:24,845 - Mapped "{[/test/list],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.IotTestDataController.list(java.lang.Integer,java.lang.Integer,java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-23 17:10:24,845 - Mapped "{[/test/explain],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.iot.controller.IotTestDataController.explain(java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-23 17:10:24,847 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-23 17:10:24,847 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-23 17:10:24,871 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 17:10:24,871 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 17:10:24,884 - Detected @ExceptionHandler methods in userExceptionHandler
+2018-07-23 17:10:24,900 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-23 17:10:24,933 - Adding welcome page: class path resource [static/index.html]
+2018-07-23 17:10:25,058 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-07-23 17:10:25,175 - 
+
+Using default security password: d046b6df-9203-4c3c-b997-25686629ab24
+
+2018-07-23 17:10:25,208 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2018-07-23 17:10:25,258 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28bf82d9, org.springframework.security.web.context.SecurityContextPersistenceFilter@1b3a9ef4, org.springframework.security.web.header.HeaderWriterFilter@5d829ef0, org.springframework.security.web.authentication.logout.LogoutFilter@4eeb14e0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@ff0e6d4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c6928c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b3f4bd8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44ccd75c, org.springframework.security.web.session.SessionManagementFilter@28367da7, org.springframework.security.web.access.ExceptionTranslationFilter@2b170932, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@21733cbe]
+2018-07-23 17:10:25,373 - Registering beans for JMX exposure on startup
+2018-07-23 17:10:25,408 - Using default implementation for ThreadExecutor
+2018-07-23 17:10:25,409 - Job execution threads will use class loader of thread: main
+2018-07-23 17:10:25,416 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-07-23 17:10:25,416 - Quartz Scheduler v.2.2.3 created.
+2018-07-23 17:10:25,417 - RAMJobStore initialized.
+2018-07-23 17:10:25,418 - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-07-23 17:10:25,418 - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-07-23 17:10:25,418 - Quartz scheduler version: 2.2.3
+2018-07-23 17:10:25,418 - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-07-23 17:10:25,424 - 2018-07-23 17:10:25
+2018-07-23 17:10:25,424 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-23 17:10:25,431 - Starting ProtocolHandler ["http-nio-8080"]
+2018-07-23 17:10:25,440 - Using a shared selector for servlet write/read
+2018-07-23 17:10:25,445 - 【UDP服务启动成功】端口:10001
+2018-07-23 17:10:25,454 - Tomcat started on port(s): 8080 (http)
+2018-07-23 17:10:25,458 - Started IotApplication in 5.614 seconds (JVM running for 6.369)
+2018-07-23 17:10:25,649 - UDP连接
+2018-07-23 17:10:25,798 - 【TCP服务启动成功】端口:10002
+2018-07-23 17:10:30,391 - 2018-07-23 17:10:30
+2018-07-23 17:10:35,390 - 2018-07-23 17:10:35
+2018-07-23 17:10:40,389 - 2018-07-23 17:10:40
+2018-07-23 17:10:45,390 - 2018-07-23 17:10:45
+2018-07-23 17:10:50,390 - 2018-07-23 17:10:50
+2018-07-23 17:10:55,389 - 2018-07-23 17:10:55
+2018-07-23 17:11:00,390 - 2018-07-23 17:11:00
+2018-07-23 17:11:05,390 - 2018-07-23 17:11:05
+2018-07-23 17:11:10,389 - 2018-07-23 17:11:10
